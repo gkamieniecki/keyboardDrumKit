@@ -3,7 +3,8 @@
 }
 
 body {
-    font-family: 'Brandon Grotesque' ,Arial,sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
     letter-spacing: .14em;
     text-transform: uppercase;
     background-color: rgb(255, 255, 255);
@@ -12,29 +13,45 @@ body {
 .instruction {
     display: flex;
     flex-direction: row;
-    margin: 30px 100px;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    margin: 60px 100px;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
 }
+
+
 
 .sound {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 10px 5px 10px 5px;
     text-align: center;
-    width: 100px;
-    height: 90px;
-    background: rgb(212, 211, 211);
+    width: 200px;
+    height: 100px;
+    background: rgb(56, 207, 68);
     border-radius: 10px;
+    cursor: pointer;
+    /* border: rgb(15, 8, 8) solid 2px; */
+    box-shadow: 0 7px #999;
 }
 
+.sound:hover {
+    background-color: rgb(13, 148, 24);
+}
+
+.sound:active {
+    background-color: rgb(13, 148, 24);
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}
 .p-key {
+    font-family: 'Bungee Shade', cursive;
     margin: 13px 0 0px 0;
-    font-size: 30px;
-    color:rgb(8, 30, 228)
+    font-size: 40px;
+    color:rgb(0, 0, 0)
 }
 
 .p-sound {
-    /* margin: 10px 20px 13px 20px; */
+    margin: 10px 20px 13px 20px;
 }
 

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,50 +11,56 @@
 </head>
 <body>
     <div class="instruction">
-        <div class="sound">
-            <p class="p-key">a</p>
-            <p class="p-sound">boom</p>
-            <audio id="boom" src="./sounds/boom.wav"></audio>
+        <div class="column-left">
+            <div class="sound a">
+                <p class="p-key">a</p>
+                <p class="p-sound">boom</p>
+                <audio id="boom" src="./sounds/boom.wav"></audio>
+            </div>
+            <div class="sound s">
+                <p class="p-key">s</p>
+                <p class="p-sound">clap</p>
+                <audio id="clap" src="./sounds/clap.wav"></audio>
+            </div>
+            <div class="sound d">
+                <p class="p-key">d</p>
+                <p class="p-sound">hihat</p>
+                <audio id="hihat" src="./sounds/hihat.wav"></audio>
+            </div>
         </div>
-        <div class="sound">
-            <p class="p-key">s</p>
-            <p class="p-sound">clap</p>
-            <audio id="clap" src="./sounds/clap.wav"></audio>
+        <div class="column-middle">
+            <div class="sound f">
+                <p class="p-key">f</p>
+                <p class="p-sound">kick</p>
+                <audio id="kick" src="./sounds/kick.wav"></audio>
+            </div>
+            <div class="sound g">
+                <p class="p-key">g</p>
+                <p class="p-sound">openhat</p>
+                <audio id="openhat" src="./sounds/openhat.wav"></audio>
+            </div>
+            <div class="sound h">
+                <p class="p-key">h</p>
+                <p class="p-sound">ride</p>
+                <audio id="ride" src="./sounds/ride.wav"></audio>
+            </div>
         </div>
-        <div class="sound">
-            <p class="p-key">d</p>
-            <p class="p-sound">hihat</p>
-            <audio id="hihat" src="./sounds/hihat.wav"></audio>
-        </div>
-        <div class="sound">
-            <p class="p-key">f</p>
-            <p class="p-sound">kick</p>
-            <audio id="kick" src="./sounds/kick.wav"></audio>
-        </div>
-        <div class="sound">
-            <p class="p-key">g</p>
-            <p class="p-sound">openhat</p>
-            <audio id="openhat" src="./sounds/openhat.wav"></audio>
-        </div>
-        <div class="sound">
-            <p class="p-key">h</p>
-            <p class="p-sound">ride</p>
-            <audio id="ride" src="./sounds/ride.wav"></audio>
-        </div>
-        <div class="sound">
-            <p class="p-key">j</p>
-            <p class="p-sound">snare</p>
-            <audio id="snare" src="./sounds/snare.wav"></audio>
-        </div>
-        <div class="sound">
-            <p class="p-key">k</p>
-            <p class="p-sound">tink</p>
-            <audio id="tink" src="./sounds/tink.wav"></audio>
-        </div>
-        <div class="sound">
-            <p class="p-key">l</p>
-            <p class="p-sound">tom</p>
-            <audio id="tom" src="./sounds/tom.wav"></audio>
+        <div class="column-right">
+            <div class="sound j">
+                <p class="p-key">j</p>
+                <p class="p-sound">snare</p>
+                <audio id="snare" src="./sounds/snare.wav"></audio>
+            </div>
+            <div class="sound k">
+                <p class="p-key">k</p>
+                <p class="p-sound">tink</p>
+                <audio id="tink" src="./sounds/tink.wav"></audio>
+            </div>
+            <div class="sound l">
+                <p class="p-key">l</p>
+                <p class="p-sound">tom</p>
+                <audio id="tom" src="./sounds/tom.wav"></audio>
+            </div>
         </div>
     </div>
 
