@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Brandon Grotesque' ,Arial,sans-serif;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+}
+
+.instruction {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sound {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+    height: 90px;
+    background: rgb(212, 211, 211);
+    border-radius: 10px;
+}
+
+.p-key {
+    margin: 13px 0 0px 0;
+    font-size: 30px;
+    color:rgb(8, 30, 228)
+}
+
+.p-sound {
+    /* margin: 10px 20px 13px 20px; */
+}
+
